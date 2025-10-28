@@ -112,7 +112,7 @@ print(vacant_seats(data, seat_condition=lambda seat, value: seat % 2 == 0))
 print(vacant_seats(data, lambda x: is_same_sex_and_vacant(x, "м")))
 # список свободных мест в купе с исключительно женской компанией
 print(vacant_seats(data, lambda x: is_same_sex_and_vacant(x, "ж")))
-
+```
 Результат:
 <img width="1046" height="152" alt="image" src="https://github.com/user-attachments/assets/656cb86f-4f85-4baf-99fd-de8df2b4a1f4" />
 
